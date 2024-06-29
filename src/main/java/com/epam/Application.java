@@ -3,6 +3,8 @@ package com.epam;
 import com.epam.OOP.Animal;
 import com.epam.OOP.Bird;
 import com.epam.OOP.Dog;
+import com.epam.conditions.SeasonDeterminer;
+import com.epam.langSyntax.DigitsSumCalculator;
 import com.epam.langSyntax.NumberReverter;
 
 public class Application {
@@ -17,6 +19,9 @@ public class Application {
         System.out.println(bird.getDescription());
         //Lang Syntax
         NumberReverter.revert(8374);
+        DigitsSumCalculator.calculateSum(2131);
+        //Conditions
+        SeasonDeterminer.tellTheSeason(15);
     }
 
 
