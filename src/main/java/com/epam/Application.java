@@ -3,10 +3,7 @@ package com.epam;
 import com.epam.OOP.Animal;
 import com.epam.OOP.Bird;
 import com.epam.OOP.Dog;
-import com.epam.conditions.DaysInMonth;
-import com.epam.conditions.IntegerDivider;
-import com.epam.conditions.SeasonDeterminer;
-import com.epam.conditions.TriangleSidesValidator;
+import com.epam.conditions.*;
 import com.epam.langSyntax.DigitsSumCalculator;
 import com.epam.langSyntax.NumberReverter;
 
@@ -28,6 +25,7 @@ public class Application {
         TriangleSidesValidator.validate(1,3,3);
         DaysInMonth.printDays(2011, 2);
         IntegerDivider.printCompletelyDivided(20, 3);
+        CoordinatePane.printQuadrant(3, -1);
     }
 
 
