@@ -26,6 +26,7 @@ public class Application {
         DaysInMonth.printDays(2011, 2);
         IntegerDivider.printCompletelyDivided(20, 3);
         CoordinatePane.printQuadrant(3, -1);
+        BitwiseValuesSwap.swap(1,6);
     }
 
 
