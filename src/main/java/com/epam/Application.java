@@ -3,18 +3,20 @@ package com.epam;
 import com.epam.OOP.Animal;
 import com.epam.OOP.Bird;
 import com.epam.OOP.Dog;
+import com.epam.langSyntax.NumberReverter;
 
 public class Application {
 
     public static void main(String[] args){
-
+        //OOP
         Animal animal = new Animal("green", 2, false); // This animal is mostly green. It has 2 paws and no fur.
         Dog dog = new Dog(); // This animal is mostly brown. It has 4 paws and a fur.
         Bird bird = new Bird(); // This animal is mostly blue. It has 2 paws and no fur. Moreover, it has 2 wings and can fly.
         System.out.println(animal.getDescription());
         System.out.println(dog.getDescription());
         System.out.println(bird.getDescription());
-
+        //Lang Syntax
+        NumberReverter.revert(8374);
     }
 
 
