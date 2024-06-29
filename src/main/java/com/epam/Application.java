@@ -3,6 +3,7 @@ package com.epam;
 import com.epam.OOP.Animal;
 import com.epam.OOP.Bird;
 import com.epam.OOP.Dog;
+import com.epam.algorithms.ArrayTasks;
 import com.epam.conditions.*;
 import com.epam.langSyntax.DigitsSumCalculator;
 import com.epam.langSyntax.NumberReverter;
