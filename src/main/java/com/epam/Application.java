@@ -6,6 +6,7 @@ import com.epam.OOP.Dog;
 import com.epam.conditions.*;
 import com.epam.langSyntax.DigitsSumCalculator;
 import com.epam.langSyntax.NumberReverter;
+import com.epam.loops.MultiplicationTable;
 
 public class Application {
 
@@ -27,6 +28,8 @@ public class Application {
         IntegerDivider.printCompletelyDivided(20, 3);
         CoordinatePane.printQuadrant(3, -1);
         BitwiseValuesSwap.swap(1,6);
+        //Loops
+        MultiplicationTable.printTable(6);
     }
 
 
